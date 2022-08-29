@@ -1,16 +1,6 @@
 @extends('module.layout')
   
 @section('content')
-<div class="row">
-    <div class="col-lg-12 margin-tb">
-        <div class="pull-left">
-            <h2></h2>
-        </div>
-        <div class="pull-right">
-            
-        </div>
-    </div>
-</div>
    
 <form action="{{ route('module.store') }}" method="POST">
     @csrf
